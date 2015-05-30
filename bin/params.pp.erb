@@ -1,0 +1,7 @@
+class pw_puppet_generate_skeleton::params {
+    $author         =   "<%= @config["git"]["author"] %>"
+    $author_email   =   "<%= @config["git"]["email"] %>"
+    $base_path      =   "<%= #{moduledir} %>"
+    $dir_list       =   ["$base_path/manifests","$base_path/tests","$base_path/spec"]
+    $skel_path      =   "<%= @config["puppet"]["skel_path"] %>"
+}

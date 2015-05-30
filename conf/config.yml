@@ -1,10 +1,14 @@
 ---
 git:
   author: 'Phil Watts'
+  email: 'pwatts217@gmail.com'
   handle: 'MarsuperMammal'
   organization:
-  provider: GitHub
+  oauth:
+  password:
+  provider: 'GitHub'
   private: false
+  workspace: '/Users/pwatts/git/'
 puppet:
   forge:
     user: 'MarsuperMammal'
@@ -18,3 +22,4 @@ puppet:
     r10k-webhook:
       enabled: false
       uri:
+  skelpath: '/Users/pwatts/git/pw_puppet_generate_skeleton'
